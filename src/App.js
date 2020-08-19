@@ -17,13 +17,19 @@ import Inline from './Components/Inline';
  import './appStyles.css';
  import styles from './appStyles.modules.css'
 import Form from './Components/Form';
-
+import LifeCycleA from './Components/LifeCycleA'
+import Table from './Components/Table'
+import FragmentDemo from './Components/FragmentDemo'
  
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Form/>
+        <Table/>
+        {/* <FragmentDemo/> */}
+        {/* <LifeCycleA /> */}
+        {/* Sample Form to experiment Basics of form Handling */}
+        {/* <Form/> */}
         {/* appStyle.css By default applies to child elements */}
         {/* <h1 className='Error'>Error</h1> */}
          {/* appStyles.modules.css By default not applies to child elements */}
